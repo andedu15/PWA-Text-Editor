@@ -28,13 +28,35 @@ This program can be run through a browser using the link to the the deployed app
 
 ## Usage
 
+To use the application from the command line (after installing dependencies):
+
+1- Open the root directory of the repository in your terminal or bash.
+
+2- Bundle the front-end code by entering (npm run build) in the command line.
+
+3- Start the server by entering (npm run start) in the command line.
+
+4- Go to the port on your local host.
+
+5- Click the "Install" button.
+
+Or
+
 Use the deployed URL to open the deployed application. 
+
+![Alt text](./assets/images/JATE1.png)
 
 Type any code snippet or notes in the editor. The content will be saved in the IndexedDB when the window is unfocused. When you reopen the text editor after closing it, the content in the text editor will be retrieved from the IndexedDB. 
 
 If the Install button is clicked, the web application will be downloaded as an icon in your desktop.
 
+![Alt text](./assets/images/JATE2.png)
+
 The application works without an internet connection.
+
+![Alt text](./assets/images/JATE3.png)
+
+![Alt text](./assets/images/JATE4.png)
 
 ##  Technologies used
 
